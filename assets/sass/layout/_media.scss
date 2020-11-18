@@ -1,0 +1,198 @@
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    header{
+        grid-template-columns: auto;
+
+        .bloque1, .bloque2, .bloque3{
+           width: 250px;
+        }
+
+        #caja1{
+            img{
+                width: 100%;
+            }
+        }
+        
+        .bloque4{
+            grid-column: span 1;
+            width: 250px;
+        }
+    }
+
+    section{
+        grid-template-columns: auto;
+
+        .bloque5{
+            width: 300px;
+        }
+        .bloque6{
+            width: 300px;
+            height: 500px;
+
+            .grafico{
+                #chartContainer{
+                    width: 290px;
+                }
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    header{
+        grid-template-columns: auto;
+
+        .bloque1, .bloque2, .bloque3{
+           width: 500px;
+        }
+
+        .bloque4{
+            grid-column: span 1;
+            width: 500px;
+        }
+
+    }
+
+    section{
+        grid-template-columns: auto;
+
+        .bloque5{
+            width: 450px;
+            transform: skew(5deg);
+        }
+        .bloque6{
+            transform: skew(5deg);
+            width: 450px;
+            height: 500px;
+
+            .grafico{
+                #chartContainer{
+                    width: 420px;
+                }
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+    header{
+        grid-template-columns: auto;
+
+        .bloque1, .bloque2, .bloque3{
+           width: 650px;
+        }
+
+        .bloque4{
+            grid-column: span 1;
+            width: 650px;
+        }
+
+    }
+
+    section{
+        grid-template-columns: auto;
+
+        .bloque5{
+            width: 650px;
+            transform: skew(5deg);
+        }
+        .bloque6{
+            transform: skew(5deg);
+            width: 650px;
+            height: 500px;
+
+            .grafico{
+                #chartContainer{
+                    width: 600px;
+                }
+            }
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    header{
+        grid-template-columns: auto auto auto;
+
+        .bloque1, .bloque2, .bloque3{
+           width: 300px;
+        }
+
+        #caja1{
+            img{
+                width: 100%;
+            }
+        }
+        .bloque4{
+            grid-column: 1/4;
+            width: 900px;
+        }
+    }
+
+    section{
+        grid-template-columns: auto auto;
+
+        .bloque5{
+            width: 400px;
+            transform: skew(5deg);
+        }
+        .bloque6{
+            width: 400px;
+            height: 500px;
+            transform: skew(5deg);
+
+            .grafico{
+                #chartContainer{
+                    width: 350px;
+                }
+            }
+        }
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    header{
+        grid-template-columns: auto auto auto auto;
+
+        .bloque1{
+           width: 500px;
+        }
+
+        #caja1{
+            img{
+                width: 100%;
+            }
+        }
+
+        .bloque2, .bloque3{
+            width: 180px;
+        }
+
+        #caja2, #caja3{
+            img{
+                width: 110%;
+            }
+        }
+        .bloque4{
+            grid-column: span 1;
+            width: 300px;
+        }
+    }
+    section{
+        grid-template-columns: auto auto;
+
+        .bloque5{
+            transform: skew(5deg);
+            width: 600px;
+        }
+        .bloque6{
+            transform: skew(5deg);
+            width: 600px;
+            height: 500px;
+        }
+    }
+}

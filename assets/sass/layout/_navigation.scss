@@ -1,0 +1,26 @@
+nav{
+    img{
+        width: 150px;
+           
+    }
+        
+    #caja{
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    #buscando{
+        font-family: 'Righteous', cursive;
+        font-size: 20px;
+    }
+
+    #buscando:hover{
+        background: #fbcb04;
+        color: black;
+    }
+
+    #buscando:focus{
+        background: #2c62aa;
+        color: white;
+    }
+}

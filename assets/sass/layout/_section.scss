@@ -1,0 +1,42 @@
+section{
+    display: grid;
+    justify-content: center;
+
+    .bloque5{
+        background: #2c62aa;
+        border: 3px solid goldenrod; 
+        color: white;
+        
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        padding: 20px;
+        margin: 10px;
+        grid-column: span 1;
+        overflow: hidden;
+
+        #gif{
+            font-family: 'Righteous', sans-serif;
+            img{
+                width: 100px;
+            }
+        }
+
+        #happiness, #ratio{
+            text-align: center;
+            font-family: 'Righteous', sans-serif;
+            font-size: 25px;
+            color: goldenrod;
+            
+        }
+    }
+
+    .bloque6{
+        background: white;
+        border: 3px solid goldenrod; 
+        
+        padding: 20px;
+        margin: 10px;
+        grid-column: span 1;
+        overflow: hidden;
+    }
+}

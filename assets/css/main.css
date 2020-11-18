@@ -1,0 +1,336 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body .fondo {
+  background-image: url("../img/fondo4.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+}
+body .poke-info {
+  display: inline-block;
+  margin-right: 2px;
+}
+body .pokeType {
+  padding: 5px 30px;
+  color: #fff;
+  border: 2px solid black;
+  border-radius: 25px;
+  text-transform: capitalize;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  margin: 5px;
+  font-weight: 700;
+}
+body .normal {
+  background-color: #a8a878;
+}
+body .grass {
+  background-color: #78c850;
+}
+body .ground {
+  background-color: #e0c068;
+}
+body .fighting {
+  background-color: #c03028;
+}
+body .rock {
+  background-color: #b8a038;
+}
+body .steel {
+  background-color: #b8b8d0;
+}
+body .fire {
+  background-color: #f08030;
+}
+body .electric {
+  background-color: #f8d030;
+}
+body .flying {
+  background-color: #a890f0;
+}
+body .psychic {
+  background-color: #f85888;
+}
+body .bug {
+  background-color: #a8b820;
+}
+body .dragon {
+  background-color: #7038f8;
+}
+body .water {
+  background-color: #6890f0;
+}
+body .ice {
+  background-color: #98d8d8;
+}
+body .poison {
+  background-color: #a040a0;
+}
+body .dark {
+  background-color: #705848;
+}
+body .ghost {
+  background-color: #705898;
+}
+body .fairy {
+  background-color: #ffaec9;
+}
+
+@media (max-width: 575.98px) {
+  header {
+    grid-template-columns: auto;
+  }
+  header .bloque1, header .bloque2, header .bloque3 {
+    width: 250px;
+  }
+  header #caja1 img {
+    width: 100%;
+  }
+  header .bloque4 {
+    grid-column: span 1;
+    width: 250px;
+  }
+
+  section {
+    grid-template-columns: auto;
+  }
+  section .bloque5 {
+    width: 300px;
+  }
+  section .bloque6 {
+    width: 300px;
+    height: 500px;
+  }
+  section .bloque6 .grafico #chartContainer {
+    width: 290px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  header {
+    grid-template-columns: auto;
+  }
+  header .bloque1, header .bloque2, header .bloque3 {
+    width: 500px;
+  }
+  header .bloque4 {
+    grid-column: span 1;
+    width: 500px;
+  }
+
+  section {
+    grid-template-columns: auto;
+  }
+  section .bloque5 {
+    width: 450px;
+    transform: skew(5deg);
+  }
+  section .bloque6 {
+    transform: skew(5deg);
+    width: 450px;
+    height: 500px;
+  }
+  section .bloque6 .grafico #chartContainer {
+    width: 420px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  header {
+    grid-template-columns: auto;
+  }
+  header .bloque1, header .bloque2, header .bloque3 {
+    width: 650px;
+  }
+  header .bloque4 {
+    grid-column: span 1;
+    width: 650px;
+  }
+
+  section {
+    grid-template-columns: auto;
+  }
+  section .bloque5 {
+    width: 650px;
+    transform: skew(5deg);
+  }
+  section .bloque6 {
+    transform: skew(5deg);
+    width: 650px;
+    height: 500px;
+  }
+  section .bloque6 .grafico #chartContainer {
+    width: 600px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  header {
+    grid-template-columns: auto auto auto;
+  }
+  header .bloque1, header .bloque2, header .bloque3 {
+    width: 300px;
+  }
+  header #caja1 img {
+    width: 100%;
+  }
+  header .bloque4 {
+    grid-column: 1/4;
+    width: 900px;
+  }
+
+  section {
+    grid-template-columns: auto auto;
+  }
+  section .bloque5 {
+    width: 400px;
+    transform: skew(5deg);
+  }
+  section .bloque6 {
+    width: 400px;
+    height: 500px;
+    transform: skew(5deg);
+  }
+  section .bloque6 .grafico #chartContainer {
+    width: 350px;
+  }
+}
+@media (min-width: 1200px) {
+  header {
+    grid-template-columns: auto auto auto auto;
+  }
+  header .bloque1 {
+    width: 500px;
+  }
+  header #caja1 img {
+    width: 100%;
+  }
+  header .bloque2, header .bloque3 {
+    width: 180px;
+  }
+  header #caja2 img, header #caja3 img {
+    width: 110%;
+  }
+  header .bloque4 {
+    grid-column: span 1;
+    width: 300px;
+  }
+
+  section {
+    grid-template-columns: auto auto;
+  }
+  section .bloque5 {
+    transform: skew(5deg);
+    width: 600px;
+  }
+  section .bloque6 {
+    transform: skew(5deg);
+    width: 600px;
+    height: 500px;
+  }
+}
+nav img {
+  width: 150px;
+}
+nav #caja {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+nav #buscando {
+  font-family: "Righteous", cursive;
+  font-size: 20px;
+}
+nav #buscando:hover {
+  background: #fbcb04;
+  color: black;
+}
+nav #buscando:focus {
+  background: #2c62aa;
+  color: white;
+}
+
+header {
+  display: grid;
+  justify-content: center;
+}
+header .bloque1, header .bloque2, header .bloque3 {
+  background: black;
+  border: 3px solid goldenrod;
+  color: white;
+  text-align: center;
+  transform: skew(-5deg);
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding: 20px;
+  margin: 10px;
+  grid-column: span 1;
+  overflow: hidden;
+}
+header .bloque1 img, header .bloque2 img, header .bloque3 img {
+  filter: drop-shadow(0 0 0.75rem white);
+}
+header .bloque4 {
+  background: white;
+  border: 3px solid black;
+  text-align: center;
+  transform: skew(-5deg);
+  padding: 20px;
+  margin: 10px;
+  overflow: hidden;
+  text-transform: capitalize;
+  font-family: "Montserrat", sans-serif;
+}
+header .bloque4 #nombre {
+  font-family: "Righteous", sans-serif;
+}
+
+section {
+  display: grid;
+  justify-content: center;
+}
+section .bloque5 {
+  background: #2c62aa;
+  border: 3px solid goldenrod;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  padding: 20px;
+  margin: 10px;
+  grid-column: span 1;
+  overflow: hidden;
+}
+section .bloque5 #gif {
+  font-family: "Righteous", sans-serif;
+}
+section .bloque5 #gif img {
+  width: 100px;
+}
+section .bloque5 #happiness, section .bloque5 #ratio {
+  text-align: center;
+  font-family: "Righteous", sans-serif;
+  font-size: 25px;
+  color: goldenrod;
+}
+section .bloque6 {
+  background: white;
+  border: 3px solid goldenrod;
+  padding: 20px;
+  margin: 10px;
+  grid-column: span 1;
+  overflow: hidden;
+}
+
+footer img {
+  width: 100px;
+}
+footer p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=main.css.map */

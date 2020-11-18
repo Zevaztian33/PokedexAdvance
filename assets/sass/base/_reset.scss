@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    .fondo{
+      background-image: url('../img/fondo4.png');
+      background-position: center;
+      background-repeat: repeat;
+      background-size: cover;
+      opacity: 1;
+      height: 100%;
+      width: 100%;
+    }
+  
+    .poke-info {
+      display: inline-block;
+      margin-right: 2px;
+    
+    }
+  
+    .pokeType{
+      padding: 5px 30px;
+      color: #fff;
+      border: 2px solid black;
+      border-radius: 25px;
+      text-transform: capitalize;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      margin: 5px;
+      font-weight: 700;
+    }
+  
+    .normal {
+      background-color: #a8a878;
+    }
+        
+    .grass {
+      background-color: #78c850;
+    }
+        
+    .ground {
+      background-color: #e0c068;
+    }
+        
+    .fighting {
+      background-color: #c03028;
+    }
+        
+    .rock {
+      background-color: #b8a038;
+    }
+        
+    .steel {
+      background-color: #b8b8d0;
+    }
+        
+    .fire {
+      background-color: #f08030;
+    }
+        
+    .electric {
+      background-color: #f8d030;
+    }
+        
+    .flying {
+      background-color: #a890f0;
+    }
+        
+    .psychic {
+      background-color: #f85888;
+    }
+        
+    .bug {
+      background-color: #a8b820;
+    }
+        
+    .dragon {
+      background-color: #7038f8;
+    }
+        
+    .water {
+      background-color: #6890f0;
+    }
+        
+    .ice {
+      background-color: #98d8d8;
+    }
+        
+    .poison {
+      background-color: #a040a0;
+    }
+        
+    .dark {
+      background-color: #705848;
+    }
+        
+    .ghost {
+      background-color: #705898;
+    }
+        
+    .fairy {
+      background-color: #ffaec9;
+    }
+  }
