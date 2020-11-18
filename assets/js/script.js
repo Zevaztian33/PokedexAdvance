@@ -75,7 +75,7 @@ $(document).ready(function () {
             //Sprite animado sobre gráfico
             let foto = infoPoke.sprites.versions['generation-v']['black-white'].animated.front_default ? infoPoke.sprites.versions['generation-v']['black-white'].animated.front_default :  infoPoke.sprites.front_default;
 
-            $('#gif').html(`<h3>Pokedex (Recopilatorio de todas las edidiciones):</h3>
+            $('#gif').html(`<h3>Pokeinfo (de todas las ediciones):</h3>
                 <img src="${foto}" alt="${infoPoke.id}">`)
 
                 
@@ -252,7 +252,7 @@ $(document).ready(function () {
         //Sprite animado sobre gráfico
         let foto = infoPoke.sprites.versions['generation-v']['black-white'].animated.front_default ? infoPoke.sprites.versions['generation-v']['black-white'].animated.front_default :  infoPoke.sprites.front_default;
 
-        $('#gif').html(`<h3>Pokedex (Recopilatorio de todas las edidiciones):</h3>
+        $('#gif').html(`<h3>Pokeinfo (de todas las ediciones):</h3>
             <img src="${foto}" alt="${infoPoke.id}">`)
 
         //Formula para conseguir la reseña y otros datos
