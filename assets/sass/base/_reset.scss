@@ -5,6 +5,22 @@ body{
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 
+    #contenedor_carga{
+      background-color: #181B1D;
+      height: 100%;
+      width: 100%;
+      margin: auto;
+      position: fixed;
+      -webkit-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      transition: all 1s ease;
+      z-index: 1000;
+
+      img{
+        width: 100%;
+      }
+    }
+
     .fondo{
       background-image: url('../img/fondo4.png');
       background-position: center;
